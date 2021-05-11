@@ -106,7 +106,7 @@ setTimeout(function(){ $("#"+currentColor).removeClass("pressed"); }, 50);
 
 // flash Animation
 function animateFlash(buttonName){
-$("#"+buttonName).fadeOut(200).fadeIn(200);
+$("#"+buttonName).fadeOut(150).fadeIn(150);
 }
 
 // play sound as per button
